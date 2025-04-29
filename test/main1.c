@@ -1,3 +1,8 @@
+typedef struct {
+    int rating;
+    char title[50];
+} Game;
+
 Game createGame(int r, char *gameTitle);
 void printGameInfo(const Game *game);
 
