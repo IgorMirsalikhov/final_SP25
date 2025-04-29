@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int isIdentityMatrix(int n, int matrix[n][n]);
 
 int main() {
